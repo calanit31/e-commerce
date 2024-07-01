@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+
+button {
+  padding: 8px 16px;
+  border-radius: 32px;
+  border: 1px solid lightgray;
+  background-color: #333;
+  color:white;
+  font-weight: bold;
+}
+
+
+.del {
+  background-color:#bd3333 !important;
+}
+
+#viewProductModal{
+  display:none;
+  position: fixed;
+  margin:auto;
+  top: 20px;
+  left: 20px;
+  width: 50%;
+  height: 65vh;
+  z-index: 50;
+  background-color: #bbbccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 3px #666;
+}
+
+#auth_signup > h2, #auth_signin > h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#signInForm{
+  width: 60%;
+}
+
+#productList {
+  width:100%;
+  list-style-type: none;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+}
+
+#productList li {
+  margin-bottom: 20px;
+  width:fit-content;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#productList li img {
+  max-width: 100%;
+  height: auto;
+}
+
+#productList li button {
+  margin-top: 10px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: contain;
+}
